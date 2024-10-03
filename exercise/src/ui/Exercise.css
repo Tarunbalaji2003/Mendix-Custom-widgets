@@ -1,0 +1,67 @@
+/* ui/Exercises.css */
+.widget-wrapper {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 30%;
+}
+
+.fetch-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.fetch-btn:hover {
+    background-color: #0056b3;
+}
+
+.exercise-list {
+    margin-top: 20px;
+}
+
+.exercise-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.exercise-item h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.exercise-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.exercise-item p strong {
+    color: #000;
+}
